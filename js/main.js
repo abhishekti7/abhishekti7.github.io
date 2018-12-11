@@ -178,47 +178,4 @@ $(document).ready(function(){
   })
 
 
-    $('.active-course-carusel').owlCarousel({
-        items:3,
-        loop:true,
-        margin:30,
-        dots: true,
-        nav:true,
-        navText: ["<span class='lnr lnr-arrow-up'></span>",
-        "<span class='lnr lnr-arrow-down'></span>"],
-            responsive: {
-            0: {
-                items: 1
-            },
-            480: {
-                items: 1,
-            },
-            768: {
-                items: 2,
-            },
-            900: {
-                items: 3,
-            }
-
-        }
-    });
-
-
-
-
-
-
-  
-
-        $(document).ready(function() {
-            $('#mc_embed_signup').find('form').ajaxChimp();
-        });
-
-
-
-
-
-
-
-
  });
