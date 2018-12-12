@@ -64,16 +64,19 @@ a {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
-
-iframe {
-  border: 0;
-}
-
 a, a:focus, a:hover {
   text-decoration: none;
   outline: 0;
 }
 
+.parallax{
+  background-image: url("../img/bg.JPG");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /*projects area*/
 .section-title{
   text-align: center;
