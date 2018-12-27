@@ -71,18 +71,21 @@ a, a:focus, a:hover {
 
 .parallax{
   background-image: url("../img/bg.jpg");
-  min-height: 300px;
+  min-height: 600px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-/*projects area*/
+/*projects */
+#projects{
+  background-color: #c8d6e5;
+}
 .section-title{
+  padding: 20px;
   text-align: center;
 
 }
-
 .rows,
 .rows > .columns {
     padding: 8px;
@@ -100,7 +103,13 @@ a, a:focus, a:hover {
     clear: both;
 }
 
-
+/* Skills and PIE chart*/
+#skills{
+  text-align: center;
+}
+.chart-container{
+  padding: 20px;
+}
 @media screen and (max-width: 900px) {
     .columns {
         width: 50%;
