@@ -28,9 +28,14 @@
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
   }
-  #overlay-text>h3{
-    color: white;
-  }
+#overlay-text>h3{
+  color: white;
+}
+.profile{
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+}
 body {
   color: #777777;
   font-family: "Poppins", sans-serif;
