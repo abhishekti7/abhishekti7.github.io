@@ -1,25 +1,27 @@
 var ctx = document.getElementById("myChart");
 var data1 = {
-        labels : ["C", "JavaScript", "MySQL", "Python", "PHP"],
+        labels : ["C", "JavaScript", "MySQL", "Python", "PHP", "Java/Android"],
         datasets : [
             {
                 label : "TeamA score",
-                data : [15, 20, 15, 30, 20],
+                data : [10, 20, 15, 20, 15, 20],
                 backgroundColor : [
                     "#ff7f50",
                     "#747d8c",
                     "#ff4757",
                     "#70a1ff",
-                    "#fbc531"
+                    "#fbc531",
+                    "#7CFC00"
                 ],
                 borderColor : [
                     "#fff",
                     "#fff",
                     "#fff",
                     "#fff",
+                    "#fff",
                     "#fff"
                 ],
-                borderWidth : [2, 2, 2, 2, 2]
+                borderWidth : [2, 2, 2, 2, 2, 2]
             }
         ]
     };
