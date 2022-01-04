@@ -8,7 +8,7 @@
     "use strict";
 
     var cfg = {
-        scrollDuration : 800, // smoothscroll duration
+        scrollDuration : 800, // x duration
         mailChimpURL   : ''   // mailchimp url
     },
 
